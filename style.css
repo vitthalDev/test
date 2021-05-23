@@ -1,0 +1,254 @@
+body{
+    padding-left: 0%;
+    background-color:whitesmoke;
+}
+
+.primary{
+    
+    height: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    padding-top: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+nav > ul{
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+nav > ul > li{
+    list-style-type:none;
+    padding: 15px;
+}
+
+nav > form{
+    margin-left: 570px;
+}
+
+
+#search1{
+    width: 250px;
+    height: 40px;
+    border-right: 0;
+    margin-top: -12px;    
+}
+
+#search-button-nav{
+    background-image: url(images/search.png);
+    position: absolute;
+    width: 40px;
+    height: 46px;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:center ;
+    border-left: 0;
+    margin-top: -12px;
+
+}
+
+nav > ul > .user{
+    padding-left: 80px;
+    margin-top: -12px;
+}
+
+.primary > .container {
+    background-color: black;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 100vh;
+}
+
+.primary > .container > .banner-content{
+    background-color:whitesmoke;
+}
+
+.secondary{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.secondary > h1{
+    padding-top: 70px;
+    padding-bottom: -100px;
+    align-self: center;
+    margin-left: 100px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottomcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cards #card1, #card2, #card3, #card4, #card5, #card6{
+    width: 300px;
+    height: 350px;
+    font-size:xx-large;
+    color: whitesmoke;
+    background-color: aqua;
+    
+}
+
+.cards #card1{
+    margin-left: 100px;
+    background-image: url(https://images.unsplash.com/photo-1619378779518-cdd16c71be62?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=350&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIwNzQwNTg4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300)
+}
+
+.cards #card4{
+    margin-left: 100px;
+    background-image: url(https://images.unsplash.com/photo-1578248215147-fc12af9685de?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=350&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIwNzQwMjMz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+}
+
+.cards #card2{
+    margin-left: -35px;
+    margin-right: -35px;
+    background-image: url(https://images.unsplash.com/photo-1610282594974-03cf1dacc68b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=350&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIwNzE4NDU5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+}
+
+.cards #card5{
+    margin-left: -35px;
+    margin-right: -35px;
+    background-image: url(https://images.unsplash.com/photo-1620071512893-44077e4811d8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=350&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIwNzQxMDIz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300)
+}
+
+.cards #card3{
+    margin-right: 100px;
+    background-image: url(https://images.unsplash.com/photo-1618001200181-e341f7949194?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=350&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIwNzQwMTAx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+}
+
+.cards #card6{
+    margin-right: 100px;
+    background-image: url(https://images.unsplash.com/photo-1615014672571-461f4f80db5a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=350&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjIwNzQxMTgx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+}
+
+.tertiary{
+    height: 100vh;
+    margin-top: 200px;
+    
+}
+
+.tertiary > .support{
+    background-color: rgb(0, 0, 0);
+    margin-top: 300px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.support > .support-title{
+    background-image: url(images/bottom_border.png);
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: -50px;
+    margin-top: -200px;
+    font-weight: 500;
+    font-size: 41px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+#search2{
+    width: 350px;
+    height: 40px;
+    border-right: 0;
+    margin-top: -12px; 
+}
+
+#search-button-support{
+    background-image: url(images/search.png);
+    position: absolute;
+    width: 45px;
+    height: 46px;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:center ;
+    border-left: 0;
+    margin-top: -12px;
+}
+
+.why-harmony{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.container .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Why-harmony-image{
+    width: 100px;
+    height: 100px;
+    
+} 
+
+.footer-container > .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230, 230, 230);
+    
+}
+
+.col{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.col > ul > li{
+    list-style-type: none;
+    margin-left: -40px;
+    padding-top: 5px;
+}
+
+.footer-container > .query{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.form-action{
+    padding-top: 20px;
+}
+
+#query-submit{
+    background-color: rgb(91,197,91);
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 370px;
+    color: white;
+}
